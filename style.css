@@ -25,6 +25,10 @@
     display: flex;
 }
 
+.flex-dir-column{
+    flex-direction: column;
+}
+
 .main-box{
     background-color: #141922;
 }
@@ -40,4 +44,16 @@
 
 .top-bar{
     background-color: #080B12;
+    flex-shrink: 0;
+    padding: 1rem 0;
+}
+
+.btn-top-bar{
+    color: white;
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    padding: 0.5rem;
+    float: right;
+    font-size: 10px;
+}
 }
