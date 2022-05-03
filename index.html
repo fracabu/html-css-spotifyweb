@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- contenitore di sfondo 100vh -->
+    <div class="app-container">
+        <!-- blocco superiore in flex-grow con align-items stretch -->
+        <div class="flex-grow d-flex">
+            <!-- sidebar statica + shrink 0 e stretch -->
+            <div class="sidebar"></div>
+            <!-- Contenitore a dx con contenuto app stretch -->
+            <div class="main-box flex-grow">
+                <!-- top-bar nera con button upgrade -->
+                <div class="top-bar">
+                    <div><button>upgrade</button></div>
+                </div>
+                <!-- contenuto scorrimento verticale flex-grow -->
+                <div></div>
+            </div>
+        </div>
+        <!-- barra inferiore player container shrink 0 -->
+        <div class="player-container"></div>
+    </div>
+
+</body>
+</html>

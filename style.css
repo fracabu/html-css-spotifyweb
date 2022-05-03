@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.player-container{
+    flex-shrink: 0;
+    padding: 1rem 0;
+    background-color: #282828;
+
+}
+.flex-grow{
+    flex-grow: 1;
+
+}
+
+.d-flex{
+    display: flex;
+}
+
+.main-box{
+    background-color: #141922;
+}
+.sidebar{
+    width: 250px;
+    background-color: #1b1b1b ;
+    color: #fff;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-bar{
+    background-color: #080B12;
+}
