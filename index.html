@@ -15,21 +15,33 @@
         <div class="box-superiore flex-grow d-flex overflow-hidden">
             <!-- sidebar statica + shrink 0 e stretch -->
 
-            <div class="sidebar">
-                <div><img src="img/logo.svg" alt="" class="logo-sidebar"></div>
-                <div><button class="btn-sidebar"> <img src="img/home.svg" alt="" class="img-btn-sidebar">home</button></div>
-                <div><button class="btn-sidebar"> <img src="img/search.svg" alt="" class="img-btn-sidebar"> cerca</button></div>
-                <div><button class="btn-sidebar"> <img src="img/libreria.svg" alt="" class="img-btn-sidebar"> la tua libreria</button></div>
-                <div><h1 class="playlist-txt">PLAYLIST</h1></div>
-                <div><button class="btn-sidebar"> <img src="img/plus-solid.svg" alt="" class="img-btn-sidebar-plus"> crea playlist</button></div>
-                <div><button class="btn-sidebar">Nome Playlist</button></div>
-                <div><button class="btn-sidebar">Nome Playlist</button></div>
-                <div><button class="btn-sidebar">Nome Playlist</button></div>
-                <div><button class="btn-sidebar">Nome Playlist</button></div>
-                <div><button class="btn-sidebar">Nome Playlist</button></div>
-                <div><button class="btn-sidebar">Nome Playlist</button></div>
+        <div class="sidebar d-flex">
+                <div class="flex-shrink" ><img src="img/logo.svg" alt="" class="logo-sidebar"></div>
+                <div class="flex-shrink" ><button class="btn-sidebar"> <img src="img/home.svg" alt="" class="img-btn-sidebar">home</button></div>
+                <div class="flex-shrink" ><button class="btn-sidebar"> <img src="img/search.svg" alt="" class="img-btn-sidebar"> cerca</button></div>
+                <div class="flex-shrink" ><button class="btn-sidebar"> <img src="img/libreria.svg" alt="" class="img-btn-sidebar"> la tua libreria</button></div>
+                
+                <!-- Playlist box flex grow -->
+
+            <div class="box-playlist flex-grow flex-dir-column">
+                <div class="flex-shrink">
+                    <h1 class="playlist-txt">PLAYLIST</h1>
+                    <button class="btn-sidebar"> <img src="img/plus-solid.svg" alt="" class="img-btn-sidebar-plus"> crea playlist</button>
+                </div>
+
+                <!-- Playlist scorrevole -->
+
+                <div class="flex-grow overflow-auto">
+                    <div><button class="btn-sidebar">Nome Playlist</button></div>
+                    <div><button class="btn-sidebar">Nome Playlist</button></div>
+                    <div><button class="btn-sidebar">Nome Playlist</button></div>
+                    <div><button class="btn-sidebar">Nome Playlist</button></div>
+                    <div><button class="btn-sidebar">Nome Playlist</button></div>
+                    <div><button class="btn-sidebar">Nome Playlist</button></div>
+                </div>
             </div>
-            
+        </div>
+
             <!-- Contenitore a dx con contenuto app stretch -->
             <div class="main-box flex-grow d-flex flex-dir-column overflow-hidden">
                 <!-- top-bar nera con button upgrade -->
@@ -41,7 +53,15 @@
             </div>
         </div>
         <!-- barra inferiore player container shrink 0 -->
-        <div class="player-container"></div>
+        <div class="player-container d-flex">
+            <div class="box-sx d-flex">
+                <div><img src="" alt=""></div>
+                <div>Sinister Brano Nome</div>
+                <div><img src="img/favicon.ico" alt=""></div>
+            </div>
+            <div class="box-centrale d-flex"></div>
+            <div class="box-dx d-flex"></div>
+        </div>
     </div>
 
 </body>
