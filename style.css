@@ -31,15 +31,17 @@
 
 .main-box{
     background-color: #141922;
+    
 }
+
 .sidebar{
     width: 250px;
-    background-color: #1b1b1b ;
+    background-color: black ;
     color: #fff;
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
-    justify-content: space-between;
+   
 }
 
 .top-bar{
@@ -55,5 +57,30 @@
     padding: 0.5rem;
     float: right;
     font-size: 10px;
+    font-family: montserrat;
 }
+.btn-sidebar{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+    border: none;
+  
+}   
+
+.logo-sidebar{
+    width: 130px;
+    padding-top: 20px;
+    padding-left: 8px;
+}
+.img-btn-sidebar{
+    width: 25px;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.overflow-auto{
+    overflow: auto;
 }

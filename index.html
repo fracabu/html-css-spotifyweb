@@ -12,17 +12,22 @@
     <!-- contenitore di sfondo 100vh -->
     <div class="app-container">
         <!-- blocco superiore in flex-grow con align-items stretch -->
-        <div class="flex-grow d-flex">
+        <div class="box-superiore flex-grow d-flex overflow-hidden">
             <!-- sidebar statica + shrink 0 e stretch -->
-            <div class="sidebar"></div>
+            <div class="sidebar">
+                <div><img src="img/logo.svg" alt="" class="logo-sidebar"></div>
+                <div><button class="btn-sidebar"> <img src="img/home.svg" alt="" class="img-btn-sidebar">home</button></div>
+                <div><button class="btn-sidebar"> <img src="img/search.svg" alt="" class="img-btn-sidebar"> cerca</button></div>
+                <div><button class="btn-sidebar"> <img src="img/libreria.svg" alt="" class="img-btn-sidebar"> la tua libreria</button></div>
+            </div>
             <!-- Contenitore a dx con contenuto app stretch -->
-            <div class="main-box flex-grow d-flex flex-dir-column">
+            <div class="main-box flex-grow d-flex flex-dir-column overflow-hidden">
                 <!-- top-bar nera con button upgrade -->
                 <div class="top-bar">
                     <div><button class="btn-top-bar">EFFETTUA L'UPGRADE</button></div>
                 </div>
                 <!-- contenuto scorrimento verticale flex-grow -->
-                <div></div>
+                <div class="flex-grow overflow-auto"></div>
             </div>
         </div>
         <!-- barra inferiore player container shrink 0 -->
