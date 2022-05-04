@@ -184,6 +184,7 @@
 
 h2{
     color:white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .title{
@@ -197,15 +198,36 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.position-relative{
+/* .position-relative{
     position: relative;
     top: 0;
 }
 
 .position-absolute{
     position: absolute;
+} */
+
+
+@media screen and (max-width: 1100px){
+    .app-container{
+        width: 700px;
+    }
 }
-/* media query */
-@media screen and { (max-width: 1100px)
-    
+
+@media screen and (max-width: 700px){
+    .app-container{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .app-container{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .app-container{
+        width: 100%;
+    }
 }
