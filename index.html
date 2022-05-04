@@ -12,10 +12,10 @@
     <!-- contenitore di sfondo 100vh -->
     <div class="app-container">
         <!-- blocco superiore in flex-grow con align-items stretch -->
-        <div class="box-superiore flex-grow d-flex overflow-hidden">
+        <div class="box-superiore flex-grow d-flex">
             <!-- sidebar statica + shrink 0 e stretch -->
 
-        <div class="sidebar d-flex">
+        <div class="sidebar d-flex overflow-hidden">
                 <div class="flex-shrink" ><img src="img/logo.svg" alt="" class="logo-sidebar"></div>
                 <div class="flex-shrink" ><button class="btn-sidebar"> <img src="img/home.svg" alt="" class="img-btn-sidebar">home</button></div>
                 <div class="flex-shrink" ><button class="btn-sidebar"> <img src="img/search.svg" alt="" class="img-btn-sidebar"> cerca</button></div>
@@ -23,7 +23,7 @@
                 
                 <!-- Playlist box flex grow -->
 
-            <div class="box-playlist flex-grow flex-dir-column">
+            <div class="box-playlist flex-grow flex-dir-column overflow-hidden">
                 <div class="flex-shrink">
                     <h1 class="playlist-txt">PLAYLIST</h1>
                     <button class="btn-sidebar"> <img src="img/plus-solid.svg" alt="" class="img-btn-sidebar-plus"> crea playlist</button>
@@ -43,7 +43,7 @@
         </div>
 
             <!-- Contenitore a dx con contenuto app stretch -->
-            <div class="main-box flex-grow d-flex flex-dir-column overflow-hidden">
+            <div class="main-box flex-grow d-flex flex-dir-column">
                 <!-- top-bar nera con button upgrade -->
                 <div class="top-bar">
                     <div><button class="btn-top-bar">EFFETTUA L'UPGRADE</button></div>
@@ -55,18 +55,31 @@
         <!-- barra inferiore player container shrink 0 -->
         <div class="player-container d-flex">
             <div class="box-sx d-flex">
-                <div><img src="" alt=""></div>
-                <div></div>
-                <div></div>
+                <div class="mini-box-sx"><img src="img/metal_lifting.jpg" alt="" class="img-mini-box-sx"></div>
+                <div class="mini-box-sx">Sinister brano nome</div>
+                <div class="mini-box-sx">
+                    <img src="img/heart-solid.svg" alt="" class="icon-size">
+                    <img src="img/folder-solid.svg" alt="" class="icon-size">
+                </div>
             </div>
             <div class="box-centrale d-flex">
-                <div></div>
-                <div></div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
             </div>
             <div class="box-dx d-flex">
+                <div class="flex-grow">
+                    <img src="img/display-solid.svg" alt="" class="icon-size">
+                    <img src="img/bars-solid (1).svg" alt="" class="icon-size">
+                </div>
                 <div>
+                    <label for="file"></label>
+                    <progress id="file" max="100" value="70"> 70% </progress>
                 <div>
-                    <div></div>
+                    <div ></div>
                     <div class="flex-grow"></div>
                     <div></div>
                 </div>

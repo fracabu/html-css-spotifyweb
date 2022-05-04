@@ -119,30 +119,42 @@
 
 .box-sx{
     width: 300px;
-    height: 20px;
-    background-color: aquamarine;
+    height: 60px;
     border: 1px dashed royalblue;
-  
+
     
 }
+.mini-box-sx{
+    width: 100%;
+    text-align: center;
+}
+.label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
 .box-centrale{
     width: 100%;
-    height: 20px;
-    background-color: aquamarine;
+    height: 60px;
+    
     border: 1px dashed royalblue;
 }
 
 .box-dx{
     width: 300px;
-    height: 20px;
-    background-color: aquamarine;
+    height: 60px;
+   
     border: 1px dashed royalblue;
 }
 
 
-.img-bottom-bar{
-    width: 100%;
-    height: 20px;
+.img-mini-box-sx{
+    width: 85%;
+}
+
+.icon-size{
+    width: 15px;
+    padding-top: 15px;
 }
 
 /* media query */
