@@ -8,10 +8,13 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: stretch;
     
 }
 
-
+.row{
+    flex-wrap: wrap;
+}
 .flex-grow{
     flex-grow: 1;
 
@@ -35,6 +38,7 @@
 }
 .main-box{
     background-color: #141922;
+    
     
 }
 
@@ -119,11 +123,11 @@
     background-color: #282828;
     display: flex;
     align-content: space-between;
+    width: 100%;
 
 }
 
 .box-sx{
-   
     height: 60px;
     border: 1px dashed royalblue;
 
@@ -137,10 +141,7 @@
 
 
 
-.label {
-    padding-right: 10px;
-    font-size: 0.5rem;
-}
+
 
 .box-centrale{
     width: 100%;
@@ -198,36 +199,34 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .position-relative{
-    position: relative;
-    top: 0;
-}
-
-.position-absolute{
-    position: absolute;
-} */
 
 
 @media screen and (max-width: 1100px){
-    .app-container{
-        width: 700px;
+    
+
+    
+
     }
-}
+
+    }
+    
+
+
+
+
+@media screen and (max-width: 900px){
+    
+    }
 
 @media screen and (max-width: 700px){
-    .app-container{
-        width: 600px;
-    }
+    
 }
 
 @media screen and (max-width: 600px){
-    .app-container{
-        width: 500px;
-    }
+    
 }
 
 @media screen and (max-width: 500px){
-    .app-container{
-        width: 100%;
-    }
+    
+    
 }
