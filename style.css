@@ -66,10 +66,15 @@
     background-color: black;
     border-radius: 20px;
     padding: 0.5rem 1.5rem;
-    float: right;
     font-size: 10px;
     font-family:Arial, Helvetica, sans-serif;
     margin-right: 15px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50px;
+    line-height: 20px;
+  
+
 }
 .btn-sidebar{
     background-color: black;
